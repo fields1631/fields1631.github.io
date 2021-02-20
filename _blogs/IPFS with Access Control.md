@@ -2,7 +2,7 @@
 title: "IPFS with Access Control"
 collection: blogs
 type: "blogs"
-permalink: /blogs/ipfs-with-access-control
+permalink: /blogs/IPFS-with-Access-Control
 date: 2021-02-13
 ---
 

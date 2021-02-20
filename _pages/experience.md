@@ -9,4 +9,8 @@ author_profile: true
 
 * **MediaNET, Fudan, Shanghai**
   * IPFS and Blockchain Group
-  * Sept. 2020 - Present, Fudan, China
+  * Sept. 2020 - Present
+
+* **SIST, Fudan, Shanghai**
+  * Bachelor of Electronic Science and Technology (Honor Class)
+  * Sept. 2018 - Present

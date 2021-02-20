@@ -2,7 +2,7 @@
 title: "Mac使用管理"
 collection: blogs
 type: "blogs"
-permalink: /blogs/mac使用管理
+permalink: /blogs/Mac使用管理
 date: 2021-01-05
 ---
 
