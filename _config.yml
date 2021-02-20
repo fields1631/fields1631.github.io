@@ -173,10 +173,10 @@ collections:
   experience:
     output: true
     permalink: /:collection/:path/
-  projects:
+  project:
     output: true
     permalink: /:collection/:path/
-  blogs:
+  blog:
     output: true
     permalink: /:collection/:path/
   cv:
@@ -201,19 +201,19 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _projects
+  # _project
   - scope:
       path: ""
-      type: projects
+      type: project
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _blogs
+  # _blog
   - scope:
       path: ""
-      type: blogs
+      type: blog
     values:
       layout: single
       author_profile: true
