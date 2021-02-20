@@ -9,4 +9,4 @@ author_profile: true
 
 * **MediaNET, Fudan, Shanghai**
   * IPFS and Blockchain Group
-  * May 2017 - August 2017, Ofuna, Japan
+  * Sept. 2020 - Present, Fudan, China

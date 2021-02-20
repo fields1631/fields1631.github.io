@@ -1,7 +1,7 @@
 ---
 title: "FPEG: Fudan Photographic Expert Group"
 collection: projects
-type: "Projects"
+type: "projects"
 permalink: /projects/fpeg
 data: 2020-12-05
 ---

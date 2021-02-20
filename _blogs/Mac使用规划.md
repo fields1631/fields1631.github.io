@@ -1,7 +1,7 @@
 ---
 title: "Mac使用规划"
 collection: blogs
-type: "Blogs"
+type: "blogs"
 permalink: /blogs/mac使用规划
 date: 2021-01-05
 ---
