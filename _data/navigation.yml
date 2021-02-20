@@ -3,11 +3,11 @@ main:
   - title: "Experience"
     url: /experience/
     
-  - title: "Projects"
-    url: /projects/
+  - title: "Project"
+    url: /project/
     
-  - title: "Blogs"
-    url: /blogs/
+  - title: "Blog"
+    url: /blog/
     
   - title: "CV"
     url: /cv/
