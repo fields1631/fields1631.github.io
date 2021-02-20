@@ -15,9 +15,9 @@ My research interests include physical design and application of machine learnin
 News
 ======
 
-* 02/2020: Participated in MCM 2021.
-* 10/2020: Joined Fudan MediaNET.
-* 10/2020: Passed interim report of Wang Dao Project (FDUROP).
-* 09/2020: Participated in CUMCM 2020 and won the second prize.
-* 09/2020: Participated in The 2nd Hui Yuan Sharing University Open Data Innovation Research Competition.
-* 04/2020: Initiated Wang Dao Project (FDUROP).
+* 02/2021: Participate in MCM 2021.
+* 10/2020: Join Fudan MediaNET.
+* 10/2020: Pass interim report of Wang Dao Project (FDUROP).
+* 09/2020: Participat in CUMCM 2020 and win the second prize.
+* 09/2020: Participat in The 2nd Hui Yuan Sharing University Open Data Innovation Research Competition.
+* 04/2020: Initiate Wang Dao Project (FDUROP).
