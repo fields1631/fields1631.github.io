@@ -2,7 +2,8 @@
 title: "FPEG: Fudan Photographic Expert Group"
 collection: projects
 type: "Projects"
-permalink: /projects/FPEG
+permalink: /projects/fpeg
+data: 2020-12-05
 ---
 
 We develop **[FPEG](https://github.com/fields1631/fpeg)**, an extensive, zero config, multiprocess accelerating programming framework for constructing image processing algorithms.
