@@ -7,7 +7,21 @@ date: 2021-01-05
 ---
 
 * 软件安装列表
-  Homebrew、iTerm2、GCC、CMake、Git、VSCode（Insider，配置Python、Julia、Golang、C、C++、Latex的调试插件）、Sublime Text3、Miniconda、Jupyter Notebook（从pip3安装）、Julia（安装IJulia使用Jupyter Notebook）、Golang、MATLAB、微信、钉钉、腾讯会议、MS Office（从信息办正版软件处下载）、TexLive（不需要GUI）、TexStudio、Typora、印象笔记（用于跨设备协作）、Mendeley/Endnote（用于科研文献管理）、Paste。
+  * iTerm2
+  * Git
+  * Homebrew
+  * VSCode（Insider, 配置Python, Julia, Golang, C, C++, Latex的调试插件）
+  * IDEA
+  * Sublime Text3
+  * Miniconda
+  * Golang
+  * MATLAB
+  * 微信, 钉钉, 腾讯会议
+  * MS Office
+  * TexLive
+  * Typora, 印象笔记
+  * Mendeley
+  * Paste
 
 * 文件储存位置
   * Repositories：存放github仓库、需要与别人协作进行开发、版本控制的项目。
