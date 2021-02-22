@@ -15,4 +15,3 @@ redirect_from:
 <h1 class="western" align="center"><b>Ye Tian</b></h1>
 <p style="line-height: 1.5;" align="center"><span style="font-size: medium;"><b>Undergraduate Student</b> </span></p>
 <p style="line-height: 1.5;" align="center"><span style="font-size: medium;">tyfields1631 at gmail.com | <a href="http://fields1631.github.io/">http://fields1631.github.io</a></span></p>
-

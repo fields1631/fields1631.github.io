@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am an undergraduate student studying in Fudan University and I major in Electronic Engineering and Technology. Currently, I'm researching in distributed storage and computing systems, including IPFS and Hadoop MapReduce.
+I am an undergraduate student studying in Fudan University and I major in Electronic Engineering and Technology. Currently, I'm researching in distributed storage and computing systems, including IPFS and Hadoop Drill.
 
 My research interests include physical design and application of machine learning, distributed storage and computing systems and natural language processing.
 
-News
+Recent Activities
 ======
 
 * 02/2021: Participate in MCM 2021.
