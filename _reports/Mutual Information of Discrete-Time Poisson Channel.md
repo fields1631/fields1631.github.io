@@ -2,7 +2,7 @@
 title: "Mutual Information of Discrete-Time Poisson Channel"
 collection: reports
 type: "reports"
-permalink: /reports/Mutual-Information-of-Discrete-Time-Poisson-Channel
+permalink: /reports/Mutual Information of Discrete-Time Poisson Channel
 date: 2020-12-20
 ---
 
