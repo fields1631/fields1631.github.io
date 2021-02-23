@@ -10,4 +10,4 @@ Due to difficulties in mathematical calculations, there is currently no accurate
 
 We use Taylor expansion to approach the mutual information and we give a general method to calculate the upper and lower bound of mutual information of arbitrary precision. A precise error analysis shows that the expression can adapt to different modulation parameteres well.
 
-Visit our **[report](Mutual-Information-of-Discrete-Time-Poisson-Channel/report.pdf)** for more information.
+Visit our **[report](Mutual Information of Discrete-Time Poisson Channel/report.pdf)** for more information.
