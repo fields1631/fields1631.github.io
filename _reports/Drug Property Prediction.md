@@ -1,8 +1,8 @@
 ---
 title: "Drug Property Prediction"
-collection: projects
-type: "projects"
-permalink: /projects/Drug-Property-Prediction
+collection: reports
+type: "reports"
+permalink: /reports/Drug-Property-Prediction
 date: 2020-07-05
 ---
 
