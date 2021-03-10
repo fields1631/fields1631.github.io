@@ -1,12 +1,20 @@
-# Drillbit开发日志
+---
+title: "Drillbit开发日志"
+collection: blogs
+type: "blogs"
+permalink: /blogs/Drillbit开发日志
+date: 2021-03-06
+---
 
-## 目的
+## Drillbit开发日志
+
+### 目的
 
 仿造hivemall，使用drill开发机器学习的库。
 
 函数的输入应该是一行数据，输出是一个模型。输入的数据可以是一个矩阵等，还有标签。
 
-## Hivemall分析
+### Hivemall分析
 
 推荐系统fm（factorized matrix）是输入一行用户信息，输出一行推荐表的。logistic regression也是输入一行数据，即各个特征，然后输出一行特征的。
 
@@ -16,9 +24,9 @@ FeatureValue：主要是hivemall规定了index:value的字符串来表示，所�
 
 hivemall.GeneralLearnerBaseUDTF: 完成学习任务。每次接收样本时，hive的UDTF规定调用process方法，而GeneralLearnerBaseUDTF在process方法中调用recordTrainSampleToTempFile方法，暂存接收到的样本。在UDTF中规定在接收所有行后调用close方法，而在close方法中，GeneralLearnerBaseUDTF训练第二轮直到规定的迭代次数。对应到drill的udf中，可以使用DrillAggFunction，process方法对应add方法，close方法对应output方法。因此我们的策略应该是：第一轮遍历，在add方法中暂存输入，遍历完成后调用output方法，在output中完成第二轮以及之后的训练。为了能使用Agg，我们需要一个mask，即在表后添加一列相同的数据，作为GROUP BY的类别。这个mask可以是使用SQL编写的函数，不必是udf，因为想象上不太可能。
 
-## drillbit的类设计
+### drillbit的类设计
 
-### 模型储存与序列化
+#### 模型储存与序列化
 
 drillbit.model.Model: interface，含有设置权重、读取权重的方法，这两个方法调用AbstractModelWeight的设置读取权重的方法。读取、设置模型信息，如是否dense的方法。含有根据byte[] 来重建模型的方法（Builder），这个方法调用AbstractModelWeight的反序列化的方法。含有将模型序列化成byte[]的方法，这个方法调用AbstractModelWeight的序列化的方法。
 
@@ -32,7 +40,7 @@ drillbit.model.ExtendedWeight: abstract class extends AbstractWeight, 实现了�
 
 使用一个weightFactory来产生weight。
 
-### 回归模型
+#### 回归模型
 
 训练、更新是和具体模型存储分离的，并可仿照hivemall。
 
