@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 
 * **Department of Computer Science, HKU, Hong Kong**
-  * Ph.D.
+  * Ph.D. student
   * Sept. 2022 - June. 2026
 
 * **MediaNET, Fudan, Shanghai**

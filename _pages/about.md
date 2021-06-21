@@ -12,6 +12,8 @@ I am an undergraduate student studying in Fudan University and I major in Electr
 
 My research interests include physical design and application of machine learning, distributed storage and computing systems and natural language processing.
 
+I've been admitted by HKU CS and I'll become a Ph.D. student in 2022.
+
 Recent Activities
 ======
 
