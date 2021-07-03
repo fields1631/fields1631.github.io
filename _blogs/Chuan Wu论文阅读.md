@@ -6,6 +6,8 @@ permalink: /blogs/Chuan Wu论文阅读
 date: 2021-06-01
 ---
 
+本文是对Chuan Wu老师近期论文的阅读笔记，对了解分布式机器学习的框架和加速策略和有一定帮助。
+
 ## DAPPLE: A pipelined data parallel approach for training large models
 
 Fan, S., Rong, Y., Meng, C., Cao, Z., Wang, S., Zheng, Z., Wu, C., Long, G., Yang, J., Xia, L., Diao, L., Liu, X., & Lin, W. (2021). DAPPLE: A pipelined data parallel approach for training large models. *Proceedings of the ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, PPOPP*, 431–445. https://doi.org/10.1145/3437801.3441593
