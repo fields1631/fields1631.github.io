@@ -18,7 +18,7 @@ Peng, Y., Zhu, Y., Chen, Y., Bao, Y., Yi, B., Lan, C., Wu, C., & Guo, C. (2019).
 
 介绍PACE，是为分布式DNN规划all-reduce通信算子与dnn算子的算法。此类系统的架构（应该有offline与online之分）是使用profiler提取出DAG，DAG中每个节点是一个computation operator或一个communication operator，DAG中每个边表示节点之间的依赖关系，然后经过tensor的融合以减少communication operator的个数，并且充分利用带宽，最后规划通信策略，再次运行。
 
-![截屏2021-05-26 08.03.37](/Users/fields/Pictures/截屏/截屏2021-05-26 08.03.37.png)
+![PACE architecture](images/pace architecture.png)
 
 规划通信策略用到了非FIFO的通信机制。目前通信库主要是FIFO的，没有抢占时的，而PACE规划之后将多个all-reduce operator进行融合（也即tensor fusion），并且将all-reduce operator分解成粒度更细的（fine-grained）operator，借此实现抢占式的通信。这样的实现是预先规定的，实际上还是利用了FIFO的通信库。**如果能有preemptive的通信库会不会好一些？但是对于DNN的scheduling或许没有太大意义，因为网络结构不会变化，每个all-reduce operator传输的数据量不会变化，因此预先的scheduling是很合理的，没有不预先规划而要临时抢占的需要。但搜索得知应该没有非FIFO的通信库，这是一个缺失。**
 
