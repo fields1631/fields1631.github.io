@@ -6,6 +6,8 @@ permalink: /blogs/Drillbit开发日志
 date: 2021-03-07
 ---
 
+本文介绍drillbit系统的一些开发细节。
+
 - 仿造hivemall，使用drill开发机器学习的库。
 - 函数的输入应该是一行数据，输出是一个模型。输入的数据可以是一个矩阵等，还有标签。
 - 首先推荐系统fm（factorized matrix）是输入一行用户信息，输出一行推荐表的。logistic regression也是输入一行数据，即各个特征，然后输出一行特征的。
