@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently an junior EE student from Fudan University. I have devoted myself to distributed machine learning system research and innovation since my experience in developing a distributed SQL machine learning system.
+I am currently a Junior student of Electronic and Information Science and Technology from Fudan University. I have devoted myself to distributed machine learning system research and innovation since my experience in developing a distributed SQL machine learning system.
 
 My research interests include design and optimization of distributed machine learning systems, programming languages and physical acceleration of machine learning.
 
