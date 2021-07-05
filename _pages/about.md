@@ -8,15 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-I am an undergraduate student studying in Fudan University and I major in Electronic Engineering and Technology. Currently, I'm developing in distributed SQL machine learning systems.
+I am currently an junior EE student from Fudan University. I have devoted myself to distributed machine learning system research and innovation since my experience in developing a distributed SQL machine learning system.
 
-My research interests include physical design and application of machine learning, distributed storage and computing systems and natural language processing.
+My research interests include design and optimization of distributed machine learning systems, programming languages and physical acceleration of machine learning.
 
-I've been admitted by HKU CS and I'll become a Ph.D. student in 2022.
+I have been admitted to Department of Computer Science, The University of Hong Kong. I will become a Ph.D. student in 2022.
 
 Recent Activities
 ======
 
+* 05/2021: Admitted to HKU CS.
 * 05/2021: Participate in AI/ADAS competition held by Dell EMC.
 * 02/2021: Participate in MCM 2021.
 * 10/2020: Join Fudan MediaNET.
