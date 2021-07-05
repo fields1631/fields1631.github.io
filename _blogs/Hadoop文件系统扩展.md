@@ -6,7 +6,10 @@ permalink: /blogs/Hadoop文件系统扩展
 date: 2021-02-20
 ---
 
+本文介绍对Hadoop文件系统的一些思考和研究。
+
 ## 为什么要扩展Hadoop文件系统
+
 有使用其他文件系统的需要, 如IPFS, 以解决HDFS存在的Data Injection等问题。
 
 ## 如何编写自己的文件系统

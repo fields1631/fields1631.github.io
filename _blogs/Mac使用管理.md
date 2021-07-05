@@ -6,7 +6,10 @@ permalink: /blogs/Mac使用管理
 date: 2021-01-05
 ---
 
+本文介绍mac系统的一些使用管理。
+
 ## 软件安装列表
+
 * iTerm2, Mendeley, Paste
 * Git, Homebrew, Miniconda, Golang, BasicTex
 * VSCode Insider (配置Python, Julia, Golang, C, C++, Latex插件), IDEA
